@@ -1,0 +1,21 @@
+body {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+* {
+  background: black;
+  color: var(--white);
+}
+.admin form {
+  margin-top: 100px;
+}
+.admin h1,
+.admin form label {
+  color: rgb(0, 150, 150);
+}
+.admin .container a:hover {
+  text-decoration: underline;
+  color: red;
+  transition: color 0.2s;
+}
